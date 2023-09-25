@@ -8,4 +8,63 @@ body {
     margin: auto;
     color: #E3D4D0;
   }
+
+  a:link {
+    color: #E3D4D0; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
   
+  a:visited {
+    color: #B2B9BF;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .rosebox {
+    /* width: 15em; */
+    /* border: 1px solid #333; */
+    border-radius: 25px;
+    padding: 8px 12px;
+    background-color: DABEB6;
+    /* background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); */
+    color: #7A8D9B;
+    
+  }
+  
+  .pinkbox{
+    border-radius: 25px;
+    padding: 8px 12 px;
+    background-color: #EED0C6;
+    color: #7A8D9B;
+  }
+
+
+  /* style social media buttons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  /* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+ 
+  /* Linkedin */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+  /* background: #E3D4D0;
+  color: #B2B9BF; */
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border-radius: 25px;
+}
